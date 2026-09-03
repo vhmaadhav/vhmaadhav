@@ -42,13 +42,6 @@ Low-level inference kernels, and how far a model can be squeezed before it stops
 
 ---
 
-<div align="left">
-  <img height="150" src="https://github-readme-stats.vercel.app/api?username=vhmaadhav&show_icons=true&hide_border=true&bg_color=00000000&title_color=6b7280&text_color=6b7280&icon_color=6b7280&hide=contribs&count_private=true" alt="GitHub stats" />
-  <img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vhmaadhav&layout=compact&hide_border=true&bg_color=00000000&title_color=6b7280&text_color=6b7280&langs_count=6" alt="Top languages" />
-</div>
-
----
-
 <sub>
   <a href="https://x.com/maadh3v">x / twitter</a> ·
   <a href="mailto:sid.maadhav@gmail.com">email</a>
