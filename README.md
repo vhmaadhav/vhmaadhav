@@ -37,6 +37,7 @@ quantization worked through from first principles.
 | **Systems** | Local-first inference runtimes, backend services, command-line tooling |
 
 **Languages** — Python, Java, TypeScript, C
+
 **Tools** — PyTorch, NumPy, OpenCV, Docker, Linux, Git
 
 ---
