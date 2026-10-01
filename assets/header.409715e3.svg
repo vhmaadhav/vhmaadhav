@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="260" viewBox="0 0 860 260" role="img" aria-label="Maadhav. Making models smaller without making them wrong. Finding things in sem images that don&#x27;t want to be found. ECE by training, ML and systems by habit.">
+<style>
+.hello { animation: fade .6s ease .05s both; }
+.name { animation: rise .9s cubic-bezier(.2,.8,.2,1) .25s both; }
+.bar { transform-box: fill-box; transform-origin: left center; animation: grow .7s cubic-bezier(.2,.8,.2,1) .9s both; }
+.meta { animation: fade .8s ease .7s both; }
+.tag { opacity: 0; animation: tag 6s ease-in-out infinite both; }
+.tag.t0 { opacity: 1; }
+.dot { animation: blink 1.2s steps(2, jump-none) infinite; }
+.ping { transform-box: fill-box; transform-origin: center; animation: ping 2.2s cubic-bezier(0,0,.2,1) infinite; }
+.ringfade { animation: ringfade 14.0s linear infinite; }
+@keyframes fade { from { opacity: 0; } to { opacity: 1; } }
+@keyframes rise { from { opacity: 0; transform: translateY(18px); } to { opacity: 1; transform: none; } }
+@keyframes grow { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+@keyframes tag { 0% { opacity: 0; transform: translateY(10px); } 8%, 42% { opacity: 1; transform: none; } 50%, 100% { opacity: 0; transform: translateY(-10px); } }
+@keyframes blink { 0% { opacity: 1; } 100% { opacity: .15; } }
+@keyframes ping { 0% { opacity: .8; transform: scale(1); } 75%, 100% { opacity: 0; transform: scale(2.6); } }
+@keyframes ringfade { 0%, 2.143% { opacity: 0; } 4.286%, 90.000% { opacity: 1; } 94.286%, 100% { opacity: 0; } }
+.hop { animation: hop 14.0s cubic-bezier(.65,0,.35,1) infinite; }
+@keyframes hop { 0% { transform: translate(556px, 92px); } 13.214% { transform: translate(556px, 92px); } 16.429% { transform: translate(650px, 54px); } 22.500% { transform: translate(650px, 54px); } 25.714% { transform: translate(770px, 70px); } 31.786% { transform: translate(770px, 70px); } 35.000% { transform: translate(812px, 150px); } 41.071% { transform: translate(812px, 150px); } 44.286% { transform: translate(740px, 212px); } 50.357% { transform: translate(740px, 212px); } 53.571% { transform: translate(628px, 200px); } 59.643% { transform: translate(628px, 200px); } 62.857% { transform: translate(560px, 172px); } 68.929% { transform: translate(560px, 172px); } 72.143% { transform: translate(690px, 136px); } 100% { transform: translate(690px, 136px); } }
+.e0 { stroke-dasharray: 101.4 101.4; animation: e0 14.0s ease-in-out infinite; }
+@keyframes e0 { 0%, 13.214% { stroke-dashoffset: 101.4; opacity: 1; } 16.429%, 90.000% { stroke-dashoffset: 0; opacity: 1; } 94.286%, 100% { stroke-dashoffset: 0; opacity: 0; } }
+.e1 { stroke-dasharray: 121.1 121.1; animation: e1 14.0s ease-in-out infinite; }
+@keyframes e1 { 0%, 22.500% { stroke-dashoffset: 121.1; opacity: 1; } 25.714%, 90.000% { stroke-dashoffset: 0; opacity: 1; } 94.286%, 100% { stroke-dashoffset: 0; opacity: 0; } }
+.e2 { stroke-dasharray: 90.4 90.4; animation: e2 14.0s ease-in-out infinite; }
+@keyframes e2 { 0%, 31.786% { stroke-dashoffset: 90.4; opacity: 1; } 35.000%, 90.000% { stroke-dashoffset: 0; opacity: 1; } 94.286%, 100% { stroke-dashoffset: 0; opacity: 0; } }
+.e3 { stroke-dasharray: 95.0 95.0; animation: e3 14.0s ease-in-out infinite; }
+@keyframes e3 { 0%, 41.071% { stroke-dashoffset: 95.0; opacity: 1; } 44.286%, 90.000% { stroke-dashoffset: 0; opacity: 1; } 94.286%, 100% { stroke-dashoffset: 0; opacity: 0; } }
+.e4 { stroke-dasharray: 112.6 112.6; animation: e4 14.0s ease-in-out infinite; }
+@keyframes e4 { 0%, 50.357% { stroke-dashoffset: 112.6; opacity: 1; } 53.571%, 90.000% { stroke-dashoffset: 0; opacity: 1; } 94.286%, 100% { stroke-dashoffset: 0; opacity: 0; } }
+.e5 { stroke-dasharray: 73.5 73.5; animation: e5 14.0s ease-in-out infinite; }
+@keyframes e5 { 0%, 59.643% { stroke-dashoffset: 73.5; opacity: 1; } 62.857%, 90.000% { stroke-dashoffset: 0; opacity: 1; } 94.286%, 100% { stroke-dashoffset: 0; opacity: 0; } }
+.e6 { stroke-dasharray: 134.9 134.9; animation: e6 14.0s ease-in-out infinite; }
+@keyframes e6 { 0%, 68.929% { stroke-dashoffset: 134.9; opacity: 1; } 72.143%, 90.000% { stroke-dashoffset: 0; opacity: 1; } 94.286%, 100% { stroke-dashoffset: 0; opacity: 0; } }
+.e7 { stroke-dasharray: 141.0 141.0; animation: e7 14.0s ease-in-out infinite; }
+@keyframes e7 { 0%, 73.929% { stroke-dashoffset: 141.0; opacity: 1; } 77.500%, 90.000% { stroke-dashoffset: 0; opacity: 1; } 94.286%, 100% { stroke-dashoffset: 0; opacity: 0; } }
+.e8 { stroke-dasharray: 91.2 91.2; animation: e8 14.0s ease-in-out infinite; }
+@keyframes e8 { 0%, 75.714% { stroke-dashoffset: 91.2; opacity: 1; } 79.286%, 90.000% { stroke-dashoffset: 0; opacity: 1; } 94.286%, 100% { stroke-dashoffset: 0; opacity: 0; } }
+.e9 { stroke-dasharray: 103.7 103.7; animation: e9 14.0s ease-in-out infinite; }
+@keyframes e9 { 0%, 77.500% { stroke-dashoffset: 103.7; opacity: 1; } 81.071%, 90.000% { stroke-dashoffset: 0; opacity: 1; } 94.286%, 100% { stroke-dashoffset: 0; opacity: 0; } }
+.e10 { stroke-dasharray: 91.0 91.0; animation: e10 14.0s ease-in-out infinite; }
+@keyframes e10 { 0%, 79.286% { stroke-dashoffset: 91.0; opacity: 1; } 82.857%, 90.000% { stroke-dashoffset: 0; opacity: 1; } 94.286%, 100% { stroke-dashoffset: 0; opacity: 0; } }
+.n0 { transform-box: fill-box; transform-origin: center; animation: n0 14.0s ease-out infinite; }
+@keyframes n0 { 0%, 6.786% { opacity: 0; transform: scale(1.9); } 9.286%, 90.000% { opacity: 1; transform: scale(1); } 94.286%, 100% { opacity: 0; transform: scale(1); } }
+.l0 { animation: l0 14.0s linear infinite; }
+@keyframes l0 { 0%, 6.786% { fill-opacity: .4; } 8.214%, 90.000% { fill-opacity: 1; } 94.286%, 100% { fill-opacity: .4; } }
+.n1 { transform-box: fill-box; transform-origin: center; animation: n1 14.0s ease-out infinite; }
+@keyframes n1 { 0%, 16.071% { opacity: 0; transform: scale(1.9); } 18.571%, 90.000% { opacity: 1; transform: scale(1); } 94.286%, 100% { opacity: 0; transform: scale(1); } }
+.l1 { animation: l1 14.0s linear infinite; }
+@keyframes l1 { 0%, 16.071% { fill-opacity: .4; } 17.500%, 90.000% { fill-opacity: 1; } 94.286%, 100% { fill-opacity: .4; } }
+.n2 { transform-box: fill-box; transform-origin: center; animation: n2 14.0s ease-out infinite; }
+@keyframes n2 { 0%, 25.357% { opacity: 0; transform: scale(1.9); } 27.857%, 90.000% { opacity: 1; transform: scale(1); } 94.286%, 100% { opacity: 0; transform: scale(1); } }
+.l2 { animation: l2 14.0s linear infinite; }
+@keyframes l2 { 0%, 25.357% { fill-opacity: .4; } 26.786%, 90.000% { fill-opacity: 1; } 94.286%, 100% { fill-opacity: .4; } }
+.n3 { transform-box: fill-box; transform-origin: center; animation: n3 14.0s ease-out infinite; }
+@keyframes n3 { 0%, 34.643% { opacity: 0; transform: scale(1.9); } 37.143%, 90.000% { opacity: 1; transform: scale(1); } 94.286%, 100% { opacity: 0; transform: scale(1); } }
+.l3 { animation: l3 14.0s linear infinite; }
+@keyframes l3 { 0%, 34.643% { fill-opacity: .4; } 36.071%, 90.000% { fill-opacity: 1; } 94.286%, 100% { fill-opacity: .4; } }
+.n4 { transform-box: fill-box; transform-origin: center; animation: n4 14.0s ease-out infinite; }
+@keyframes n4 { 0%, 43.929% { opacity: 0; transform: scale(1.9); } 46.429%, 90.000% { opacity: 1; transform: scale(1); } 94.286%, 100% { opacity: 0; transform: scale(1); } }
+.l4 { animation: l4 14.0s linear infinite; }
+@keyframes l4 { 0%, 43.929% { fill-opacity: .4; } 45.357%, 90.000% { fill-opacity: 1; } 94.286%, 100% { fill-opacity: .4; } }
+.n5 { transform-box: fill-box; transform-origin: center; animation: n5 14.0s ease-out infinite; }
+@keyframes n5 { 0%, 53.214% { opacity: 0; transform: scale(1.9); } 55.714%, 90.000% { opacity: 1; transform: scale(1); } 94.286%, 100% { opacity: 0; transform: scale(1); } }
+.l5 { animation: l5 14.0s linear infinite; }
+@keyframes l5 { 0%, 53.214% { fill-opacity: .4; } 54.643%, 90.000% { fill-opacity: 1; } 94.286%, 100% { fill-opacity: .4; } }
+.n6 { transform-box: fill-box; transform-origin: center; animation: n6 14.0s ease-out infinite; }
+@keyframes n6 { 0%, 62.500% { opacity: 0; transform: scale(1.9); } 65.000%, 90.000% { opacity: 1; transform: scale(1); } 94.286%, 100% { opacity: 0; transform: scale(1); } }
+.l6 { animation: l6 14.0s linear infinite; }
+@keyframes l6 { 0%, 62.500% { fill-opacity: .4; } 63.929%, 90.000% { fill-opacity: 1; } 94.286%, 100% { fill-opacity: .4; } }
+.n7 { transform-box: fill-box; transform-origin: center; animation: n7 14.0s ease-out infinite; }
+@keyframes n7 { 0%, 71.786% { opacity: 0; transform: scale(1.9); } 74.286%, 90.000% { opacity: 1; transform: scale(1); } 94.286%, 100% { opacity: 0; transform: scale(1); } }
+.l7 { animation: l7 14.0s linear infinite; }
+@keyframes l7 { 0%, 71.786% { fill-opacity: .4; } 73.214%, 90.000% { fill-opacity: 1; } 94.286%, 100% { fill-opacity: .4; } }
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; } .rm-hide { display: none; } }
+</style>
+<defs>
+  <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#fff" stroke-opacity=".035"/></pattern>
+  <radialGradient id="glow"><stop offset="0" stop-color="#a78bfa" stop-opacity=".14"/><stop offset="1" stop-color="#a78bfa" stop-opacity="0"/></radialGradient>
+  <clipPath id="cardclip"><rect width="860" height="260" rx="14"/></clipPath>
+</defs>
+<rect x="0.5" y="0.5" width="859" height="259" rx="14" fill="#0b0f17" stroke="#1e2633"/>
+<g clip-path="url(#cardclip)">
+  <rect width="860" height="260" fill="url(#grid)"/>
+  <circle cx="690" cy="136" r="190" fill="url(#glow)"/>
+</g>
+<text class="hello" x="40" y="70" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="14" fill="#8b949e">hey, i'm</text>
+<text class="name" x="38" y="130" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="64" font-weight="700" letter-spacing="-1.5" fill="#e6edf3">Maadhav</text>
+<rect class="bar" x="42" y="146" width="64" height="3" rx="1.5" fill="#a78bfa"/>
+<text x="40" y="188" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="17" fill="#a78bfa">›</text>
+<text x="64" y="188" class="tag t0" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="17" fill="#e6edf3" textLength="479.4" lengthAdjust="spacing" style="animation-delay:1.2s">making models smaller without making them wrong</text>
+<text x="64" y="188" class="tag t1" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="17" fill="#e6edf3" textLength="571.2" lengthAdjust="spacing" style="animation-delay:4.2s">finding things in SEM images that don&#x27;t want to be found</text>
+<text class="meta" x="40" y="226" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" fill="#8b949e">ECE by training. ML and systems by habit.</text>
+<path class="e0" d="M556 92L650 54" stroke="#a78bfa" stroke-opacity="0.7" stroke-width="1.4" fill="none"/><path class="e1" d="M650 54L770 70" stroke="#a78bfa" stroke-opacity="0.7" stroke-width="1.4" fill="none"/><path class="e2" d="M770 70L812 150" stroke="#a78bfa" stroke-opacity="0.7" stroke-width="1.4" fill="none"/><path class="e3" d="M812 150L740 212" stroke="#a78bfa" stroke-opacity="0.7" stroke-width="1.4" fill="none"/><path class="e4" d="M740 212L628 200" stroke="#a78bfa" stroke-opacity="0.7" stroke-width="1.4" fill="none"/><path class="e5" d="M628 200L560 172" stroke="#a78bfa" stroke-opacity="0.7" stroke-width="1.4" fill="none"/><path class="e6" d="M560 172L690 136" stroke="#a78bfa" stroke-opacity="0.7" stroke-width="1.4" fill="none"/><path class="e7" d="M690 136L556 92" stroke="#a78bfa" stroke-opacity="0.25" stroke-width="1.4" fill="none"/><path class="e8" d="M690 136L650 54" stroke="#a78bfa" stroke-opacity="0.25" stroke-width="1.4" fill="none"/><path class="e9" d="M690 136L770 70" stroke="#a78bfa" stroke-opacity="0.25" stroke-width="1.4" fill="none"/><path class="e10" d="M690 136L740 212" stroke="#a78bfa" stroke-opacity="0.25" stroke-width="1.4" fill="none"/>
+<circle cx="556" cy="92" r="4.5" fill="#0b0f17" stroke="#3a4556" stroke-width="1.4"/>
+<circle class="n0" cx="556" cy="92" r="4.5" fill="#a78bfa"/>
+<text class="l0" x="556" y="76" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" fill="#e6edf3">weights</text>
+<circle cx="650" cy="54" r="4.5" fill="#0b0f17" stroke="#3a4556" stroke-width="1.4"/>
+<circle class="n1" cx="650" cy="54" r="4.5" fill="#a78bfa"/>
+<text class="l1" x="650" y="38" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" fill="#e6edf3">int8</text>
+<circle cx="770" cy="70" r="4.5" fill="#0b0f17" stroke="#3a4556" stroke-width="1.4"/>
+<circle class="n2" cx="770" cy="70" r="4.5" fill="#a78bfa"/>
+<text class="l2" x="770" y="54" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" fill="#e6edf3">kernels</text>
+<circle cx="812" cy="150" r="4.5" fill="#0b0f17" stroke="#3a4556" stroke-width="1.4"/>
+<circle class="n3" cx="812" cy="150" r="4.5" fill="#a78bfa"/>
+<text class="l3" x="812" y="172" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" fill="#e6edf3">runtime</text>
+<circle cx="740" cy="212" r="4.5" fill="#0b0f17" stroke="#3a4556" stroke-width="1.4"/>
+<circle class="n4" cx="740" cy="212" r="4.5" fill="#a78bfa"/>
+<text class="l4" x="752" y="216" text-anchor="start" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" fill="#e6edf3">SEM</text>
+<circle cx="628" cy="200" r="4.5" fill="#0b0f17" stroke="#3a4556" stroke-width="1.4"/>
+<circle class="n5" cx="628" cy="200" r="4.5" fill="#a78bfa"/>
+<text class="l5" x="628" y="222" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" fill="#e6edf3">layouts</text>
+<circle cx="560" cy="172" r="4.5" fill="#0b0f17" stroke="#3a4556" stroke-width="1.4"/>
+<circle class="n6" cx="560" cy="172" r="4.5" fill="#a78bfa"/>
+<text class="l6" x="548" y="176" text-anchor="end" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" fill="#e6edf3">evals</text>
+<circle class="ping rm-hide" cx="690" cy="136" r="5" fill="none" stroke="#f5b544" stroke-width="1.2"/><circle cx="690" cy="136" r="4.5" fill="#0b0f17" stroke="#f5b544" stroke-width="1.4"/>
+<circle class="n7" cx="690" cy="136" r="4.5" fill="#f5b544"/>
+<text class="l7" x="690" y="158" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" fill="#f5b544">fast ∧ correct</text>
+<g class="ringfade rm-hide"><g class="hop" transform="translate(556 92)">
+  <circle r="11" fill="none" stroke="#a78bfa" stroke-width="1.3"/>
+  <path d="M-19 0H-14M14 0H19M0 -19V-14M0 14V19" stroke="#a78bfa" stroke-width="1.3"/>
+</g></g>
+<circle class="dot" cx="669.8" cy="238" r="3.5" fill="#3fb950"/>
+<text x="680.8" y="242" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" fill="#8b949e" textLength="145.2" lengthAdjust="spacing">usually mid-experiment</text>
+</svg>
