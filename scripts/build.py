@@ -1,6 +1,6 @@
 """Builds the profile SVGs in assets/ and rewrites README.md to point at them.
 
-Every card is rendered twice (light and dark) and served through <picture>, so
+Every panel is rendered twice (light and dark) and served through <picture>, so
 it matches whichever GitHub theme the viewer uses. Filenames carry a short
 content hash so GitHub's image proxy can't serve a stale copy after an edit.
 Run from the repo root:  python scripts/build.py
@@ -17,15 +17,13 @@ USER = "vhmaadhav"
 MONO = "ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace"
 SANS = "-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif"
 
-# GitHub's own surface colours, so the cards sit flush with the page
+# GitHub's own surface colours, so the panels sit flush with the page
 THEMES = {
     "light": dict(bg="#ffffff", edge="#d0d7de", fg="#1f2328", muted="#59636e", faint="#afb8c1",
-                  accent="#8250df", gold="#9a6700", gold_bg="#fff8c5", green="#1a7f37"),
+                  accent="#8250df", green="#1a7f37"),
     "dark": dict(bg="#0d1117", edge="#30363d", fg="#e6edf3", muted="#9198a1", faint="#3d444d",
-                 accent="#a78bfa", gold="#d29922", gold_bg="#2e2410", green="#3fb950"),
+                 accent="#a78bfa", green="#3fb950"),
 }
-
-LANG = {"Python": "#3572A5", "Jupyter": "#DA5B0B", "Java": "#b07219"}
 
 REDUCED = "@media (prefers-reduced-motion: reduce) { * { animation: none !important; } }"
 
@@ -90,51 +88,6 @@ def header(c):
     return svg(W, H, f"Maadhav. {TAGLINE} {META}.", body, css)
 
 
-# ---------------------------------------------------------------------- cards
-
-# (repo, language, badge, two description lines)
-WORK = [
-    ("semicon-driftsense", "Python", "runner-up · SEMICON India '26",
-     ["Finds a 1 µm reference patch in a ~10 µm SEM frame",
-      "under unknown zoom, rotation and possible absence."]),
-    ("razorpay-agentic-firewall", "Python", None,
-     ["Checks that AI shopping agents spend only what",
-      "the user authorized. Deterministic, no LLM in the loop."]),
-    ("thodar", "Python", "Health-a-thon '26",
-     ["Mother–baby follow-up desk for care teams: due",
-      "dates, morning worklists, two-way reminders."]),
-    ("quantization-lab", "Python", None,
-     ["Post-training quantization, worked out by hand",
-      "before trusting a library to do it."]),
-    ("hiver-email-suggested-response", "Python", None,
-     ["Retrieval-grounded email reply drafts, plus an",
-      "eval harness that scores them two ways."]),
-    ("karpathy-zero-to-hero", "Jupyter", None,
-     ["From one neuron up to a GPT, following",
-      "Zero to Hero with every step typed out."]),
-]
-
-
-def card(c, repo, lang, badge, lines):
-    W, H = 420, 132
-    badge_svg = ""
-    if badge:
-        bw = round(len(badge) * 11 * .6 + 18, 1)
-        badge_svg = (f'<rect x="{W - 20 - bw:.1f}" y="18" width="{bw}" height="22" rx="11" fill="{c["gold_bg"]}" '
-                     f'stroke="{c["gold"]}" stroke-opacity=".5"/>'
-                     f'<text x="{W - 20 - bw / 2:.1f}" y="33" text-anchor="middle" font-family="{MONO}" font-size="11" '
-                     f'fill="{c["gold"]}">{esc(badge)}</text>')
-    desc = "".join(f'<text x="22" y="{66 + 20 * i}" font-family="{SANS}" font-size="13.5" fill="{c["muted"]}">{esc(l)}</text>'
-                   for i, l in enumerate(lines))
-    body = f'''<rect x=".5" y=".5" width="{W - 1}" height="{H - 1}" rx="10" fill="{c["bg"]}" stroke="{c["edge"]}"/>
-<text x="22" y="35" font-family="{SANS}" font-size="15.5" font-weight="600" fill="{c["accent"]}">{esc(repo)}</text>
-{badge_svg}
-{desc}
-<circle cx="27" cy="{H - 22}" r="5" fill="{LANG[lang]}"/>
-<text x="38" y="{H - 18}" font-family="{SANS}" font-size="12" fill="{c["muted"]}">{lang}</text>'''
-    return svg(W, H, f"{repo}: {' '.join(lines)}", body)
-
-
 # ---------------------------------------------------------------------- stack
 
 STACK = [
@@ -182,22 +135,11 @@ def main():
         old.unlink()
 
     head = write("header", header)
-    cards = []
-    for repo, lang, badge, lines in WORK:
-        src = write(f"card-{repo}", lambda c: card(c, repo, lang, badge, lines))
-        cards.append(f'<a href="https://github.com/{USER}/{repo}">{picture(src, f"{repo}: {" ".join(lines)}", "49%")}</a>')
-    grid = "\n".join(" ".join(cards[i:i + 2]) for i in range(0, len(cards), 2))
     tools = write("stack", stack)
 
     readme = f'''{picture(head, f"Maadhav. {TAGLINE}", "100%")}
 
 ECE student who kept ending up in the inference code. Right now I'm building **neka-rt**, a local-first inference runtime (private for now), and calibrating int8 models in [quantization-lab](https://github.com/{USER}/quantization-lab).
-
-### Selected work
-
-<p>
-{grid}
-</p>
 
 ### Stack
 
