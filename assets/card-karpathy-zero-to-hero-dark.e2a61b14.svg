@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="132" viewBox="0 0 420 132" role="img" aria-label="karpathy-zero-to-hero: From one neuron up to a GPT, following Zero to Hero with every step typed out.">
+<rect x=".5" y=".5" width="419" height="131" rx="10" fill="#0d1117" stroke="#30363d"/>
+<text x="22" y="35" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="15.5" font-weight="600" fill="#a78bfa">karpathy-zero-to-hero</text>
+
+<text x="22" y="66" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="13.5" fill="#9198a1">From one neuron up to a GPT, following</text><text x="22" y="86" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="13.5" fill="#9198a1">Zero to Hero with every step typed out.</text>
+<circle cx="27" cy="110" r="5" fill="#DA5B0B"/>
+<text x="38" y="114" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="12" fill="#9198a1">Jupyter</text>
+</svg>

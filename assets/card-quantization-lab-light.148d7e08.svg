@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="132" viewBox="0 0 420 132" role="img" aria-label="quantization-lab: Post-training quantization, worked out by hand before trusting a library to do it.">
+<rect x=".5" y=".5" width="419" height="131" rx="10" fill="#ffffff" stroke="#d0d7de"/>
+<text x="22" y="35" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="15.5" font-weight="600" fill="#8250df">quantization-lab</text>
+
+<text x="22" y="66" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="13.5" fill="#59636e">Post-training quantization, worked out by hand</text><text x="22" y="86" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="13.5" fill="#59636e">before trusting a library to do it.</text>
+<circle cx="27" cy="110" r="5" fill="#3572A5"/>
+<text x="38" y="114" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="12" fill="#59636e">Python</text>
+</svg>
