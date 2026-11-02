@@ -1,9 +1,50 @@
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.0a5fdc90.svg"><img src="assets/header-light.a00011c5.svg" width="100%" alt="Maadhav. Making models smaller without making them wrong."></picture>
+```
+  maadhav
+  -------------------------------------------------
+  models that run on the device, not in the cloud
+```
 
-ECE student who kept ending up in the inference code. Right now I'm building **neka-rt**, a local-first inference runtime (private for now), and calibrating int8 models in [quantization-lab](https://github.com/vhmaadhav/quantization-lab).
+### ai / ml engineer · on-device ai
 
-### Stack
+hey, i'm maadhav. i build ml systems — small llms, vision models, rag — and get them running on real hardware: phone npus, arm boards, a car's own signals.
+studying ece at kpriet, coimbatore. looking for ai/ml engineer and on-device ai internships.
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.92db1278.svg"><img src="assets/stack-light.c5228c1f.svg" width="100%" alt="Stack: languages: Python · C · Java, TypeScript · Bash; ml: PyTorch · NumPy · OpenCV, Hugging Face · int8 / PTQ; tools: Docker · Linux · Git, Jupyter · GDSII · SEM data"></picture>
+### what i build
 
-<sub><a href="mailto:sid.maadhav@gmail.com">email</a> &nbsp;·&nbsp; <a href="https://www.linkedin.com/in/vhmaadhav">linkedin</a> &nbsp;·&nbsp; <a href="https://x.com/maadh3v">x</a> &nbsp;·&nbsp; <a href="https://orcid.org/0009-0002-9269-7337">orcid</a></sub>
+- **ml systems**: small llms, vision models, rag over real corpora, and evaluators that check whether an answer is right, not just similar.
+- **on-device deployment**: quantized models on phone npus and arm boards. onnx runtime, llama.cpp / gguf, qualcomm ai hub / qnn, int8 / ptq.
+- **embedded edge**: uart, spi, i²c, can / socketcan, lorawan, linux on the board.
+- **optimisation**: milp dispatch for an edge energy controller.
+
+### results
+
+| event | result | year |
+| --- | --- | --- |
+| SEMICON India Hackathon, Applied Materials track | **runner-up (₹75,000)** | 2026 |
+| Caterpillar Tech Challenge | **top 10 of ~1,500 teams**, grand finale | 2026 |
+| Schneider Electric Yuva Yodha, challenge 3 | selected for phase 2 | 2026 |
+| Arm × Bharat AI-SoC Challenge 2026–27 | shortlisted, team lead | 2026 |
+| iQOO Hackathon | grand finale, 48-h build | 2026 |
+| Qualcomm Snapdragon Multiverse Hackathon | selected for on-site build | 2026 |
+| ISRO Bharatiya Antariksh Hackathon | grand finale shortlist | 2026 |
+| Health-a-thon | top 150 of 450+ | 2026 |
+| Atomic Hacks (IIT Bombay × Rosatom) | finalist | 2026 |
+| Ossomehacks 2.0, SRM IST (Web3 track) | top 3 | 2025 |
+
+### featured work
+
+- **VehicleGPT**: offline small LLM over a car's CAN/VSS signals; 12 quantized models benchmarked on a 2-core, 2 GiB box; hybrid pipeline lifted accuracy 29.5% → 95.5%. Tata Elxsi Teliport S4. (code private until competition ends)
+- **Rakshak-Edge**: offline scam SMS + URL detection on Arm, with a verifier that rejects unsupported explanations. Bharat AI-SoC, in progress. (code private until competition ends)
+- **Mouna**: silent lip-reading to speech, offline on a phone NPU (PyTorch → ONNX → QNN); Kannada top-1 75.3%. iQOO Hackathon 2026 grand finale. (code private)
+- **[semicon-driftsense](https://github.com/vhmaadhav/semicon-driftsense)**: finds a reference patch in an SEM wafer frame under unknown 8–12× zoom and ±5° rotation, or rejects it. siamese CNN F1 0.91. runner-up, SEMICON India 2026.
+- **[embeddinggemma-mobile-benchmark](https://github.com/vhmaadhav/embeddinggemma-mobile-benchmark)**: EmbeddingGemma on Snapdragon phones via Qualcomm AI Hub, walked down a quantization ladder. in progress.
+- **[hiver-email-suggested-response](https://github.com/vhmaadhav/hiver-email-suggested-response)**: retrieval-grounded LLM email replies, scored by a two-signal eval harness. 61.6 vs 11.4 for a copy-nearest-reply baseline, on 39 held-out examples.
+- **Axiom Trace**: knowledge-graph RAG tutor for ECE with Bayesian mastery tracking and animated explanations; 176 tests. (code private for now)
+- **DT Guardian**: edge controller for a 200 kVA transformer; MILP dispatch, −53% energy not served in a simulated outage. Schneider Yuva Yodha. (code private until competition ends)
+
+### links
+
+- site: [vhmaadhav.com](https://vhmaadhav.com)
+- linkedin: [linkedin.com/in/vhmaadhav](https://linkedin.com/in/vhmaadhav)
+- leetcode: [leetcode.com/u/vhmaadhav](https://leetcode.com/u/vhmaadhav/)
+- email: [sid.maadhav@gmail.com](mailto:sid.maadhav@gmail.com)
