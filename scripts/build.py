@@ -145,7 +145,7 @@ ECE student who kept ending up in the inference code. Right now I'm building **n
 
 {picture(tools, "Stack: " + "; ".join(f"{h}: {', '.join(l)}" for h, l in STACK), "100%")}
 
-<sub><a href="mailto:sid.maadhav@gmail.com">email</a> &nbsp;·&nbsp; <a href="https://www.linkedin.com/in/{USER}">linkedin</a> &nbsp;·&nbsp; <a href="https://x.com/maadh3v">x</a> &nbsp;·&nbsp; <a href="https://orcid.org/0009-0002-9269-7337">orcid</a></sub>
+<sub><a href="mailto:sid.maadhav@gmail.com">email</a> &nbsp;·&nbsp; <a href="https://www.linkedin.com/in/{USER}">linkedin</a> &nbsp;·&nbsp; <a href="https://orcid.org/0009-0002-9269-7337">orcid</a></sub>
 '''
     (ROOT / "README.md").write_text(readme, encoding="utf-8")
 
